@@ -30,25 +30,3 @@ generateQuote();
 
 
 
-// document.addEventListener('DOMContentLoaded', function() {
-//     const quoteText = document.getElementById('quote');
-//     const authorText = document.getElementById('author');
-//     const newQuoteButton = document.getElementById('new-quote');
-
-//     async function fetchQuote() {
-//         try {
-//             const response = await fetch('https://api.quotable.io/random');
-//             const data = await response.json();
-//             quoteText.textContent = `"${data.content}"`;
-//             authorText.textContent = `- ${data.author}`;
-//         } catch (error) {
-//             quoteText.textContent = 'An error occurred while fetching a new quote.';
-//             authorText.textContent = '';
-//         }
-//     }
-
-//     newQuoteButton.addEventListener('click', fetchQuote);
-
-//     // Fetch a quote when the page loads
-//     fetchQuote();
-// });
